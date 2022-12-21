@@ -1,6 +1,5 @@
-const greet = (person) => {
-    return "Hello, " + person
-}
-
+const greet = (person) => 'Hello, ' + person
 const greetMsg = greet("Felipe")
-console.log(greetMsg)
+
+const greetReference = greet
+console.log(greetReference("Daphne"))
