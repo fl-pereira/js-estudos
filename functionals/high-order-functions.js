@@ -21,3 +21,11 @@ function run(operation, a,b){
 run(add, 2, 2)
 run(subtract, 5, 3)
 run(multiply, 4, 3)
+
+function finalPriceWithTax(tax, price) {
+    tax /= 100
+    return(tax * price) + price
+}
+
+const tv = 400
+console.log(finalPriceWithTax(10,tv))
